@@ -1,0 +1,51 @@
+@media screen and (min-width: 800px) {
+
+    body {
+         width: 960px;
+         height: 768px;
+         margin: 0 auto;
+    }
+    
+    h1, h2, article, .cd, .efgh, .i  {
+        outline: 1px dotted black;
+        margin: 0;
+    }
+    
+    h1 {
+        background-image: url("http://placehold.it/960x100");
+        width: 960px;
+        height: 100px;
+    }
+    
+    h2 {
+        background-image: url("http://placehold.it/200x600");
+        width: 200px;
+        height: 600px;
+        float: left;
+        display: inline-block; 
+    }
+    
+    .cd article{
+        background-image: url("http://placehold.it/380x200");
+        width: 380px;
+        height: 200px;
+        display: inline-block;
+        float: left;
+    }
+    
+    .efgh article{
+        background-image: url("http://placehold.it/190x250");
+        width: 190px;
+        height: 250px;
+        display: inline-block;
+        clear: both;
+        margin-right: -4px; 
+    }
+    
+    .i {
+        background-image: url("http://placehold.it/760x150");
+        width: 760px;
+        height: 150px;
+        display: inline-block;
+        }
+    }
